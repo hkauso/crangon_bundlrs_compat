@@ -45,8 +45,8 @@ async fn main() {
                 pastemd::database::ViewMode::OpenMultiple
             },
             table_pastes: pastemd::database::PastesTableConfig {
-                table_name: "cr_pastes".to_string(),
-                prefix: "cr_paste".to_string(),
+                table_name: "Pastes".to_string(),
+                prefix: "paste".to_string(),
                 url: "custom_url".to_string(),
                 password: "edit_password".to_string(),
                 content: "content".to_string(),
@@ -55,8 +55,8 @@ async fn main() {
                 ..Default::default()
             },
             table_views: pastemd::database::ViewsTableConfig {
-                table_name: "cr_views".to_string(),
-                prefix: "cr_views".to_string(),
+                table_name: "views".to_string(),
+                prefix: "views".to_string(),
             },
         },
     )
